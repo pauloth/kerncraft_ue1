@@ -1,11 +1,11 @@
 /**
- * 
- * This class provides a "Biome", which can store one Village - 
- * It has to have a name and a kind (e.g. "desert", "gras"...)
  *
- * 
- * @author Paul Jureschek, Michael Kinzkhofer
- * 
+ * This class provides a "Biome", which can store one Village.
+ * It has to have a name and a kind (e.g. "desert", "gras"...).
+ *
+ *
+ * @author Paul Jureschek, Michael Kinzkofer
+ *
  */
 
 
@@ -15,8 +15,8 @@ public class Biome {
 	private Village village;
 
 	/**
-	 * Generates new Biome object
-	 * 
+	 * Generates new Biome.
+	 *
 	 * @param name name of biome
 	 * @param kind kind of biome (e.g. "desert", "gras"...)
 	 */
@@ -26,7 +26,8 @@ public class Biome {
 	}
 
 	/**
-	 * 
+	 * Returns name of Biome.
+	 *
 	 * @return name of Biome
 	 */
 	public String getName() {
@@ -34,7 +35,8 @@ public class Biome {
 	}
 
 	/**
-	 * 
+	 * Returns kind of Biome (e.g. "desert", "gras"...).
+	 *
 	 * @return kind of Biome (e.g. "desert", "gras"...)
 	 */
 	public String getKind() {
@@ -42,20 +44,21 @@ public class Biome {
 	}
 
 	/**
-	 * 
-	 * @return Village saved in Biom (built on Biome)
+	 * Returns Village saved in Biome (built on Biome).
+	 *
+	 * @return Village saved in Biome (built on Biome)
 	 */
 	public Village getVillage() {
 		return village;
 	}
-	
+
 	/**
-	 * Adds existing village to Biom
-	 * @param village Element of type Village that should be added to this Biom
+	 * Adds existing Village to Biome.
+	 * @param village Village Element of type Village that should be added to this Biome
 	 */
-	
+
 	public void addVillage(Village village) {
-		this.village = village;	
+		this.village = village;
 	}
 
 
